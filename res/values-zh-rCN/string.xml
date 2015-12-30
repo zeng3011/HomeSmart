@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- main_fragment -->
+    <string name="main_life">生活是一种态度</string>
+    <string name="home_life">家居生活</string>
+    <string name="main_alarm">安防报警</string>
+    <string name="tenement">物业公告</string>
+    <string name="warm_prompt">温馨提示</string>
+    <string name="no_post">没有记录</string>
+    <string name="gateway">您还没有配置网关，请先配置!</string>
+    
+    <!-- smart_home -->
+    <string name="model">情景模式</string>
+    <string name="more">更多.....</string>
+    <string name="badroom">二楼主卧室</string>
+    <string name="up_back">返回</string>
+    	<!-- 一个情景模式 -->
+    	<string name="one_ivOne">情景模式1</string>
+    	
+    	<!-- 二个情景模式 -->
+    	<string name="two_ivOne">情景模式1</string>
+    	<string name="two_ivTwo">情景模式2</string>
+    	
+    	<!-- 三个情景模式 -->
+    	<string name="three_ivOne">情景模式1</string>
+    	<string name="three_ivTwo">情景模式2</string>
+    	<string name="three_ivThree">情景模式3</string>
+    	
+    	<!-- 四个情景模式 -->
+    	<string name="four_ivOne">情景模式1</string>
+    	<string name="four_ivTwo">情景模式2</string>
+    	<string name="four_ivThree">情景模式3</string>
+    	<string name="four_ivFour">情景模式4</string>
+    	
+    	<!-- 五个情景模式 -->
+    	<string name="five_ivOne">情景模式1</string>
+    	<string name="five_ivTwo">情景模式2</string>
+    	<string name="five_ivThree">情景模式3</string>
+    	<string name="five_ivFour">情景模式4</string>
+    	<string name="five_ivFive">情景模式5</string>
+    
+    <!-- alarm -->
+    <string name="alarm_information">报警信息</string>
+    <string name="alarm_time">2015-11-20 12:00</string>
+    <string name="alarm_content1">防区一烟感</string>
+    <string name="alarm_content2">防区二门截</string>
+    <string name="alarm_content3">防区三周界</string>
+    
+    <!-- conditional -->
+    <string name="now_Ts">当前温度</string>
+    <string name="setting_Ts">设定温度</string>
+    <string name="now_T">26</string>
+    <string name="setting_T">25</string>
+    <string name="breeze">微风</string>
+    <string name="apoplexy">中风</string>
+    <string name="gale">大风</string>
+    <string name="automatic">自动</string>
+    <string name="refrigeration">制冷</string>
+    <string name="makehot">制热</string>
+    <string name="ventilate">通风</string>
+    <string name="add_T">温度+</string>
+    <string name="cut_T">温度-</string>
+    
+    <!-- content -->
+
+    
+    <!-- control -->
+    <string name="ceiling_lamp">吸顶灯</string>
+    <string name="change_lamplight">可调灯光</string>
+    <string name="air_condition">空调</string>
+    <string name="floor_heating">地暖</string>
+    
+    <!-- favorite -->
+    
+    <!-- notification -->
+    <string name="notice">公告</string>
+    <string name="notice_time">2015年12月7日10:0</string>
+    
+    <!-- set_about -->
+    <string name="about">关于</string>
+    <string name="developers">开发商</string>
+    <string name="gogo">深圳市高谷智联科技有限公司</string>
+    <string name="versions">版本</string>
+    <string name="inside">内部版本</string>
+    <string name="technical_support">技术支持</string>
+    <string name="URL">sales@gogo-link.com</string>
+    
+    <!-- gateway_editor -->
+    <string name="gateway_edit">网关编辑</string>
+    <string name="gateway_ID">网关ID</string>
+    <string name="id">GBELL-000123-ABCCC</string>
+    <string name="user_name">用户名</string>
+    <string name="now_user_hint">输入新用户名</string>
+    <string name="register_password">登录密码</string>
+    <string name="now_password_hint">输入新密码</string>
+    <string name="commit">提交</string>
+    <string name="warm_prompt1">温馨提示:为确保您的系统安全，请及时更改密码。</string>
+    <string name="userAndPsw">网关id/用户名/密码不能为空！</string>
+    <string name="userAndPass">用户名/密码不能为空！</string>
+    <string name="dialog">提示框</string>
+    <string name="wrong">您输入的信息不正确！</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    
+    <!-- gateway_register -->
+    <string name="gateway_register">网关注册</string>
+    <string name="gateway_hint">输入网关ID</string>
+    <string name="user_hint">输入用户名</string>
+    <string name="password_hint">输入密码</string>
+    <string name="register">登录</string>
+    <string name="warm_prompt2">温馨提示:如果忘记密码，可以复位网关，
+        	然后再使用缺省的用户名与密码进行登录。</string>
+    <string name="starting_zxing">正在启动二维码....</string>
+    <string name="show_toat_buzhi">该设备不支持二维码扫描</string>
+    <string name="RichScan">扫一扫</string>
+    <string name="warm_prompt_zxing">请将二维码置于框内手机需联网</string>
+    <string name="add_search_result">搜索结果</string>
+    <string name="refresh">刷新</string>
+    <string name="str_cancel">取消</string>
+    <string name="searching_tip">正在搜索，请稍候...</string>
+    <string name="add_search_no">没有搜索到,请重试...</string>
+    <string name="register_success">登录成功！</string>
+    <string name="register_lose">登录失败！！！</string>
+    
+    <!-- set_up -->
+    <string name="system_setting">系统设置</string>
+    <string name="DS">数据同步</string>
+    <string name="push_sound">推送铃声</string>
+    <string name="update_firmware">固件更新</string>
+    <string name="advise_message">建议留言</string>
+    <string name="register1">GBELL-002367-ABCDE</string>
+    <string name="edit1">修改用户名及密码</string>
+    <string name="data1">当前版本108，最新版本108</string>
+    <string name="push1">HelloBaby.mp3</string>
+    <string name="update1">当前版本5.12.3.51124</string>
+    <string name="advice1">您的建议反馈是产品持续发展的保障</string>
+    <string name="about1">当前版本:3.6.78.4325</string>
+    <string name="update_data">数据正在同步，请稍候....</string>
+    <string name="data_success">数据同步成功</string>
+    
+</resources>

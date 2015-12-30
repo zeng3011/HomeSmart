@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+    	android:background="@color/green">
+         
+        <Button 
+            android:id="@+id/up_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_back"/>
+        
+		<TextView 
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="4"
+		    android:text="@string/about"
+		    android:textSize="@dimen/title"
+		    android:gravity="center"/>
+		
+		<View 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+	    
+    </LinearLayout>
+        
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        android:orientation="horizontal">
+		
+        <View 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:orientation="vertical">
+	      
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/developers"
+	            android:layout_marginBottom="5dp"
+	            android:textSize="@dimen/big_text"/>
+	        
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/gogo"
+	            android:layout_marginBottom="15dp"
+	            android:textSize="@dimen/title"/>
+	        
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/versions"
+	            android:layout_marginBottom="5dp"
+	            android:textSize="@dimen/big_text"/>
+	        
+	        <TextView
+	            android:id="@+id/version"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="15dp"
+	            android:text="3.4.5.678"
+	            android:textSize="@dimen/title"/>
+	        
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/inside"
+	            android:layout_marginBottom="5dp"
+	            android:textSize="@dimen/big_text"/>
+	        
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="3.0.12.2005.12.03"
+	            android:layout_marginBottom="15dp"
+	            android:textSize="@dimen/title"/>
+	        
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/technical_support"
+	            android:layout_marginBottom="5dp"
+	            android:textSize="@dimen/big_text"/>
+	        
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/URL"
+	            android:layout_marginBottom="15dp"
+	            android:textSize="@dimen/title"/>
+	              
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

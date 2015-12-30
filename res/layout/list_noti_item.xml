@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edittext_style1"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal" >
+    
+
+    <TextView 
+        android:layout_marginLeft="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ic_launcher"
+        />
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="9dp"
+        >
+        <TextView 
+            android:id="@+id/noti_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015年12月7日09:49:56"
+            />
+        <TextView 
+            android:id="@+id/noti_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大会"
+            />
+    </LinearLayout>
+</LinearLayout>

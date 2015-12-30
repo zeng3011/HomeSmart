@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+    	android:background="@color/green">
+         
+        <Button 
+            android:id="@+id/up_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_back"/>
+        
+		<TextView 
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="4"
+		    android:text="@string/RichScan"
+		    android:textSize="@dimen/title"
+		    android:gravity="center"/>
+		
+		<View 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+	    
+    </LinearLayout>
+    
+	<FrameLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="10">
+	
+        <RelativeLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent">
+	    
+		    <SurfaceView
+		        android:id="@+id/preview_view"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_gravity="center" />
+		
+		   <RelativeLayout
+		        android:id="@+id/capture_crop_layout"
+		        android:layout_width="200dp"
+		        android:layout_height="200dp"
+		        android:layout_centerInParent="true"
+		        android:background="@drawable/capture"
+		        android:contentDescription="@string/app_name" >
+
+		        <ImageView
+		            android:id="@+id/viewfinder_view"
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:layout_alignParentTop="true"
+		            android:layout_margin="5dp"
+		            android:src="@drawable/kakalib_scan_ray"
+		            android:contentDescription="@string/app_name" />
+		    </RelativeLayout>
+
+		    <TextView
+		        android:id="@+id/warm_prompt_zxing"
+		        android:layout_width="120dp"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/capture_crop_layout"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="50dp"
+		        android:background="@drawable/zxing"
+		        android:gravity="center"
+		        android:text="@string/warm_prompt_zxing"
+		        android:textColor="@color/white"
+		        android:textSize="@dimen/title" />
+
+		</RelativeLayout>
+    
+	</FrameLayout>
+
+</LinearLayout>
+
