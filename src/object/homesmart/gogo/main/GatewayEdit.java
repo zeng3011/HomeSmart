@@ -66,14 +66,14 @@ public class GatewayEdit extends Fragment implements OnClickListener{
 			
 		//如果用户名或者密码为空，则打印"用户名/密码不能为空！"，否则打印空
 		case R.id.edit_commit:
-			if(edit_user.length() < 1 || edit_pass.length() < 1){
-				reminder.setText(getResources().getString(R.string.userAndPass));
-			}else{
-				reminder.setText("");
-				transaction.replace(R.id.fragmen_content, setUp);
+//			if(edit_user.equals("") || edit_pass.equals("")){
+//				reminder.setText(getResources().getString(R.string.userAndPass));
+//			}else{
+//				reminder.setText("");
+//				transaction.replace(R.id.fragmen_content, setUp);
 				Toast.makeText(getActivity(), getResources()
 						.getString(R.string.register_success), Toast.LENGTH_SHORT).show();
-			}
+//			}
 			break;
 
 		default:
